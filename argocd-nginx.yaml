@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     # path to the folder with the YAML manifests
-    path: python-manifests
+    path: manifests
     repoURL: https://github.com/codebueno/argocd-demo
     targetRevision: HEAD
   # Sync policy
