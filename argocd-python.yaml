@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: exercises/argocd-demo/python-manifests
+    path: python-manifests
     repoURL: https://github.com/codebueno/argocd-demo
     targetRevision: HEAD
   syncPolicy: {}
