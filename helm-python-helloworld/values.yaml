@@ -3,5 +3,6 @@ namespace:
  
 image:
   repository: codebueno/python-helloworld
+  tags: latest
 
 replicaCount: 3
