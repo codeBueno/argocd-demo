@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: python-helloworld 
+  name: helm-python-helloworld 
   namespace: argocd
 spec:
   destination:
@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values.yaml
-    path: solutions/helm/python-helloworld
-    repoURL: https://github.com/udacity/nd064_course_1 
+    path: helm-python-helloworld
+    repoURL: https://github.com/codebueno/argocd-demo
     targetRevision: HEAD
